@@ -45,6 +45,33 @@ body {
     </p>
 
     <h2> Reading is critical </h2>
-    <img src= http://ichef.bbci.co.uk/wwfeatures/wm/live/1280_640/images/live/p0/2v/dp/p02vdpfn.jpg width="200" height="200">
+    <img id="book" src= http://ichef.bbci.co.uk/wwfeatures/wm/live/1280_640/images/live/p0/2v/dp/p02vdpfn.jpg width="200" height="200">
     
+    <p id="simple"> read this text and become smarter </p>
+    <button type="button" onclick="simpleText()"> Click this button to enchance the reading</button>
+    <script>
+    function simpleText()
+    {
+        document.getElementById("simple").style.fontSize = "25px";
+        document.getElementById("simple").style.color = "blue";
+        document.getElementById("simple").style.background = "teal";
+        document.getElementById("book").src = "https://www.incimages.com/uploaded_files/image/970x450/getty_883231284_200013331818843182490_335833.jpg";
+    }
+    </script>
+    <h3> lamp lamp faq lamp lamp </h3>
+    <body id="lampbody">
+        now you may be wondering <br>
+        "lamp why is your realm so bad" <br>
+        and to that i say <br>
+        i dont know how to use html, css, or javascript <br>
+        👍
+    </body>
+    <button type="button" onclick="lampBody()"> Click here to disprove the statement on javascript </button>
+    <script>
+    function lampBody()
+    {
+        document.getElementById("lampbody").style.backgroundColor="limegreen";
+    }
+    </script>
+
 </html>
